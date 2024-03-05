@@ -14710,7 +14710,7 @@ p{
 }
 .services_wrapper .card{
     background-color:transparent;
-    box-shadow: none;
+    box-shadow: black;
     padding:2.5rem;
 }
 .services_wrapper .card:hover{
