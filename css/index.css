@@ -4668,10 +4668,15 @@ textarea.form-control-lg {
       margin-bottom: 20px;
   }
 
-  .testimonials-h1 {
-      text-align: left;
-      padding-right: 30px;
+  .testimonials-p {
+      
+      padding-right: 290px;
   }
+  .testimonials-h1{
+    margin-left: 20px;
+  }
+  
+  
 
   .testimonial-slider .column p.data {
       text-align: center;
