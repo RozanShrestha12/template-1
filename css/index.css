@@ -4586,6 +4586,7 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+  border-radius: 12px;
 }
 
 .card-title {
@@ -9316,11 +9317,15 @@ textarea.form-control-lg {
 }
 
 .rounded-0 {
-  border-radius: 0 !important;
+  border-radius: 12 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .rounded-1 {
   border-radius: var(--bs-border-radius-sm) !important;
+}
+.call-now {
+  text-decoration: underline;
 }
 
 .rounded-2 {
