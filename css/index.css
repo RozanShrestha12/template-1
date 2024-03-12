@@ -9325,7 +9325,7 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius-sm) !important;
 }
 .call-now {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .rounded-2 {
