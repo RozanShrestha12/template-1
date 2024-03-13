@@ -13280,13 +13280,13 @@ nav .navbar-nav .nav-link:hover {
 }
 
 .logo {
-  width: 31rem;
+  width: 35rem;
   filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5));
-  padding-top: 40px;
+  padding-top: 55px;
 }
 @media (max-width: 1400px) {
   .logo {
-    width: 25rem;
+    width: 24rem;
     margin-top: 25px;
   }
 }
@@ -13756,10 +13756,30 @@ nav .navbar-nav .nav-link:hover {
 @media (max-width: 576px) {
   .nav-hero .hero .hero-info,
   .nav-hero .inner-hero .hero-info {
-    margin-top: 0.5rem;
+    margin-top: -3rem;
     width: 95%;
   }
 }
+@media (max-width: 576px) {
+  
+  .logo{
+    margin-top: -1.9rem;
+    width: 95%;
+  }
+}
+
+.text-number{
+  text-decoration: underline !important;
+}
+
+@media (max-width: 1200px) {
+  
+  .logo{
+    margin-top: -1.9rem;
+    width: 95%;
+  }
+}
+
 .nav-hero .hero-img {
   position: absolute;
   width: 100%;
